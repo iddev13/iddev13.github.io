@@ -1,0 +1,37 @@
+.search {
+	padding: 10px;
+}
+
+.countries {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.search__form {
+	margin: 10px 0px;
+	position: relative;
+}
+
+.search__form img,
+source {
+	display: block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 1;
+	object-fit: contain;
+	font-family: "object-fit: contain;";
+}
+
+.search__input {
+	padding: 5px 5px 5px 25px;
+	border-radius: 5px;
+}
+
+@media (max-width: 780px) {
+	.countries {
+		justify-content: space-around;
+	}
+}

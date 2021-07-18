@@ -1,0 +1,28 @@
+.header {
+	width: 100%;
+	border-bottom: 1px solid #fff;
+}
+
+.header__inner {
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo a {
+	font-size: 42px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.header__mode button {
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-weight: 700;
+	transition: all 0.3s ease;
+}
+
+.header__mode button:hover {
+	background-color: #ccc;
+}

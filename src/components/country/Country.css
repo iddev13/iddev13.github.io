@@ -1,0 +1,62 @@
+.country {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	flex: 1 0 25%;
+	margin: 0 0 20px 0;
+	align-items: center;
+}
+
+.country__wrapper {
+	width: 250px;
+	height: 100%;
+	border: 1px solid #fff;
+	overflow: hidden;
+}
+
+.country p {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.2;
+	margin: 0px 0px 5px 0px;
+}
+
+.country__image {
+	width: 250px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+}
+
+.country__image img,
+source {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	transition: all 0.3s ease;
+	/* object-fit: contain;
+	font-family: "object-fit: contain;"; */
+}
+
+.country__description {
+	padding: 10px;
+}
+.country__name {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1.4;
+	margin: 0px 0px 10px 0px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+
+@media (min-width: 1024px) {
+	.country:hover .country__image img,
+	source {
+		transform: scale(1.1);
+	}
+}

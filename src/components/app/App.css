@@ -1,0 +1,12 @@
+.App {
+	display: flex;
+	overflow: hidden;
+	min-height: 100vh;
+	flex-direction: column;
+	opacity: 0;
+	transition: all 1s ease;
+}
+
+.App.active {
+	opacity: 1;
+}
