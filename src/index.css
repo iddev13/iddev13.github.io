@@ -127,3 +127,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+body .light-mode {
+  color: #000;
+  background-color: #fff;
+}

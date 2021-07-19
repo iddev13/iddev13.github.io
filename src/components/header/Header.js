@@ -1,6 +1,6 @@
 import './Header.css';
 
-const Header = () => {
+const Header = (props) => {
 	return (
 		<header className="header">
 			<div className="container">
@@ -9,7 +9,7 @@ const Header = () => {
 						<a href="/">LOGO</a>
 					</div>
 					<div className="header__mode">
-						<button>Theme</button>
+						<button onClick={() => { props.themeToggler() }}>Theme</button>
 					</div>
 				</div>
 			</div>

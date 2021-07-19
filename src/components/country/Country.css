@@ -37,9 +37,7 @@ source {
 	top: 0;
 	left: 0;
 	z-index: 1;
-	transition: all 0.3s ease;
-	/* object-fit: contain;
-	font-family: "object-fit: contain;"; */
+	transition: transform 0.3s ease;
 }
 
 .country__description {
