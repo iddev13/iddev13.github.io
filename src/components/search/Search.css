@@ -28,6 +28,7 @@ source {
 .search__input {
 	padding: 5px 5px 5px 25px;
 	border-radius: 5px;
+	border: 1px solid #000;
 }
 
 @media (max-width: 780px) {
